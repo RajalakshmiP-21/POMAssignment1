@@ -7,7 +7,7 @@
         <methods>
           <include name="editArticle"/>
           <include name="setup"/>
-          <include name="newArticleTest"/>
+          <include name="deleteArticleTest"/>
         </methods>
       </class> <!-- testScripts.ArticleTest -->
     </classes>

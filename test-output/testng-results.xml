@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-02T14:08:00 IST" name="Default suite" finished-at="2026-03-02T14:08:36 IST" duration-ms="35548">
+  <suite started-at="2026-03-05T16:47:39 IST" name="Default suite" finished-at="2026-03-05T16:48:29 IST" duration-ms="49412">
     <groups>
     </groups>
-    <test started-at="2026-03-02T14:08:00 IST" name="Default test" finished-at="2026-03-02T14:08:36 IST" duration-ms="35548">
+    <test started-at="2026-03-05T16:47:39 IST" name="Default test" finished-at="2026-03-05T16:48:29 IST" duration-ms="49412">
       <class name="testScripts.ArticleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.ArticleTest@41d477ed]" started-at="2026-03-02T14:08:00 IST" name="setup" finished-at="2026-03-02T14:08:09 IST" duration-ms="8170" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.ArticleTest@4afcd809]" started-at="2026-03-05T16:47:39 IST" name="setup" finished-at="2026-03-05T16:48:04 IST" duration-ms="24823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginPageTest()[pri:1, instance:testScripts.ArticleTest@41d477ed]" started-at="2026-03-02T14:08:09 IST" name="LoginPageTest" finished-at="2026-03-02T14:08:10 IST" duration-ms="1222" status="PASS">
+        <test-method signature="LoginPageTest()[pri:1, instance:testScripts.ArticleTest@4afcd809]" started-at="2026-03-05T16:48:04 IST" name="LoginPageTest" finished-at="2026-03-05T16:48:05 IST" duration-ms="1252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTest -->
-        <test-method signature="newArticleTest()[pri:2, instance:testScripts.ArticleTest@41d477ed]" started-at="2026-03-02T14:08:10 IST" name="newArticleTest" finished-at="2026-03-02T14:08:22 IST" duration-ms="11698" status="PASS">
+        <test-method signature="newArticleTest()[pri:2, instance:testScripts.ArticleTest@4afcd809]" started-at="2026-03-05T16:48:05 IST" name="newArticleTest" finished-at="2026-03-05T16:48:17 IST" duration-ms="11314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newArticleTest -->
-        <test-method signature="editArticle()[pri:3, instance:testScripts.ArticleTest@41d477ed]" started-at="2026-03-02T14:08:22 IST" name="editArticle" finished-at="2026-03-02T14:08:35 IST" duration-ms="13711" status="PASS">
+        <test-method signature="editArticle()[pri:3, instance:testScripts.ArticleTest@4afcd809]" started-at="2026-03-05T16:48:17 IST" name="editArticle" finished-at="2026-03-05T16:48:28 IST" duration-ms="11407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editArticle -->
-        <test-method signature="deleteArticleTest()[pri:4, instance:testScripts.ArticleTest@41d477ed]" started-at="2026-03-02T14:08:35 IST" name="deleteArticleTest" finished-at="2026-03-02T14:08:36 IST" duration-ms="634" status="PASS">
+        <test-method signature="deleteArticleTest()[pri:4, instance:testScripts.ArticleTest@4afcd809]" started-at="2026-03-05T16:48:28 IST" name="deleteArticleTest" finished-at="2026-03-05T16:48:29 IST" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticleTest -->

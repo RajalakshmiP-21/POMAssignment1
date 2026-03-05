@@ -81,7 +81,7 @@ public class ArticleTest {
    @Test(priority=4)
    public void deleteArticleTest() {
 	   deleteP.DeleteArtcile();
-	   String deletedS = deleteP.isDeleted();
-	   System.out.println("Deleted: "+deletedS);
+	   boolean deletedS = deleteP.isDeleted();
+	   //System.out.println("Deleted: "+deletedS);
    }
 }

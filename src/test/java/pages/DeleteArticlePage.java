@@ -1,6 +1,7 @@
 package pages;
 
 import java.time.Duration;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DeleteArticlePage {
 	
-	WebDriver driver = new ChromeDriver();
+	WebDriver driver;
 	WebDriverWait wait;
 	
 	@FindBy(xpath="(//button[contains(.,'Delete Article')])[1]") WebElement deleteBtn;
@@ -22,7 +23,7 @@ public class DeleteArticlePage {
 	
 	public DeleteArticlePage(WebDriver driver) {
 		this.driver=driver;
-		this.wait=wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		this.wait= new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -45,11 +46,18 @@ public class DeleteArticlePage {
 
     }
         
-	public String isDeleted()
+	public boolean isDeleted()
 	{
-		String deleteSuccess = deleteSucc.getAttribute("Articles not available.");
-		return deleteSuccess;
+		    try {
+		        return deleteSucc.getText().contains("Articles not available.");
+		    } catch (NoSuchElementException e) {
+		        return false;
+		    }
+		}
+
+//		String deleteSuccess = deleteSucc.getAttribute("Articles not available.");
+//		return deleteSuccess;
 	}
 	
 
-}
+
